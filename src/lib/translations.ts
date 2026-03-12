@@ -339,64 +339,21 @@ export const translations: Record<string, Translation> = {
     noServicesAvailable: "No services available at the moment",
     checkBackSoon: "Please check back soon for our service offerings",
     
-    // Doughnut Economics
-    planetaryBoundaries: "Planetary Boundaries",
-    planetaryBoundariesDesc: "Operating within Earth's ecological limits to ensure long-term sustainability.",
-    socialFoundation: "Social Foundation", 
-    socialFoundationDesc: "Ensuring basic human needs are met for all people in our business operations.",
-    regenerativeGrowth: "Regenerative Growth",
-    regenerativeGrowthDesc: "Growth that gives back more than it takes, creating positive impact.",
-    antiExploitation: "Anti-Exploitation",
-    antiExploitationDesc: "Fair pricing and ethical business practices that respect all stakeholders.",
-    
-    slidingScalePricing: "Sliding Scale Pricing",
-    slidingScalePricingDesc: "More sustainable businesses pay less, incentivizing positive environmental practices.",
-    rewardsBehavior: "Rewards Sustainable Behavior",
-    transparentSubscriptions: "Transparent Subscriptions", 
-    transparentSubscriptionsDesc: "Clear, honest pricing with no hidden fees or profit percentages.",
-    noExploitation: "No Exploitation",
-    impactInvestment: "Impact Investment",
-    impactInvestmentDesc: "10% of profits invested in environmental and social impact projects.",
-    regenerativeByDesign: "Regenerative by Design",
-    ethicalScreening: "Ethical Screening",
-    ethicalScreeningDesc: "We only work with brands that align with our sustainability and ethical values.",
-    valuesAlignment: "Values Alignment",
-    
-    // Services
+    // Services (additional)
     servicesTitle: "Amazon Growth Solutions",
     servicesSubtitle: "We're a sustainable marketing agency that builds custom solutions for your Amazon business. From PPC optimization to brand strategy, we drive real results within ecological limits.",
-    amazonPPCAds: "Amazon PPC & Ads",
-    amazonOptimization: "Amazon Optimization",
-    brandStrategy: "Brand Strategy",
-    performanceAnalytics: "Performance Analytics",
-    growthAcceleration: "Growth Acceleration",
-    tiktokMarketing: "TikTok Marketing",
-    viewCaseStudy: "View Case Study",
     
-    // About
+    // About (additional)
     aboutTitle: "Human-First Marketing Agency",
     aboutSubtitle: "About Superfly Commerce",
-    aboutDescription1: "At Superfly Commerce, we're designed to build solutions for your ecommerce brand. We specialize in TikTok marketing and Amazon growth strategies that put authentic human connections first.",
-    aboutDescription2: "Our approach combines cutting-edge Amazon expertise with sustainable business principles to create strategies that don't just drive sales, but build lasting value within ecological and social limits.",
-    yearsExperience: "Years Experience",
-    brandsWorkedWith: "Brands Worked With",
-    clientSatisfaction: "Client Satisfaction",
     whyChooseUs: "Why Choose Superfly Commerce",
-    humanFirstApproach: "Human-First Approach",
     resultsDriven: "Results-Driven",
     customSolutions: "Custom Solutions",
     provenExpertise: "Proven Expertise",
     
-    // Pricing
+    // Pricing (additional)
     pricingTitle: "Pricing That Rewards Sustainability",
     pricingSubtitle: "Our sliding scale pricing model rewards brands that prioritize ecological and ethical responsibility. The more sustainable your practices, the less you pay.",
-    selectSustainabilityLevel: "Select Your Sustainability Level",
-    gettingStarted: "Getting Started",
-    consciousBrand: "Conscious Brand",
-    impactLeader: "Impact Leader",
-    planetChampion: "Planet Champion",
-    verificationRequired: "Verification Required",
-    requestContract: "Request Contract & Get Started",
     howSlidingScaleWorks: "How Our Sliding Scale Works",
     sustainabilityAssessment: "Sustainability Assessment",
     getFreeAssessment: "Get Your Free Assessment",
@@ -414,40 +371,23 @@ export const translations: Record<string, Translation> = {
     total: "Total:",
     proceedToCheckout: "Proceed to Checkout",
     
-    // Contact
+    // Contact (additional)
     contactTitle: "Ready to Scale Your Brand?",
     contactSubtitle: "Let's discuss how we can help scale your ecommerce brand with our human-first approach to TikTok marketing and Amazon optimization. Get a free consultation today.",
-    emailUs: "Email Us",
-    callUs: "Call Us",
-    whatsapp: "WhatsApp",
-    location: "Location",
-    globallyBased: "Globally-based, Remote-driven",
-    whatYoullGet: "What You'll Get",
     freeAssessment: "Free brand growth assessment",
-    customStrategy: "Custom TikTok & Amazon strategy",
-    transparentPricing: "Transparent pricing explanation",
     responseTime: "Response within 24 hours",
     getFreeStrategy: "Get Your Free Growth Strategy Session",
     name: "Name",
     email: "Email",
     company: "Company",
-    companyName: "Company Name",
     currentRevenue: "Current Monthly Revenue",
-    tellUsAboutBrand: "Tell us about your brand and goals",
     
-    // Results
+    // Results (additional)
     resultsTitle: "Real Results for Real Brands",
     resultsSubtitle: "See how we've helped ecommerce brands achieve extraordinary growth through our human-first approach to TikTok marketing and Amazon optimization.",
-    brandsWeWorkedWith: "Brands We've Worked With",
-    getSimilarResults: "Get Similar Results",
     
-    // Footer
-    quickLinks: "Quick Links",
-    getInTouch: "Get in Touch",
-    stayInLoop: "Stay in the Loop!",
-    sustainableGrowthTips: "Get exclusive Amazon growth tips, sustainability insights, and industry updates delivered to your inbox.",
+    // Footer (additional)
     joinNow: "Join Now",
-    madeWithLove: "Made with ❤️ for ecommerce brands",
     
     // Sustainability Verification
     sustainabilityVerification: "Sustainability Verification",
