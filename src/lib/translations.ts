@@ -1,3 +1,4 @@
+// Translations for Superfly Commerce - 8 languages supported
 export interface Translation {
   // Navigation
   services: string;
@@ -944,7 +945,7 @@ export const translations: Record<string, Translation> = {
     dragDropFiles: "Glissez-déposez les fichiers ici, ou cliquez pour parcourir",
     chooseFiles: "Choisir les fichiers",
     uploadedFiles: "Fichiers téléchargés",
-    submitVerification: "Soumettre pour vérification",
+    submitVerification: "Soumettre pour v��rification",
     verificationProcess: "Processus de vérification",
     
     // Checkout
