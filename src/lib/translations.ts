@@ -374,7 +374,6 @@ export const translations: Record<string, Translation> = {
     // Contact (additional)
     contactTitle: "Ready to Scale Your Brand?",
     contactSubtitle: "Let's discuss how we can help scale your ecommerce brand with our human-first approach to TikTok marketing and Amazon optimization. Get a free consultation today.",
-    freeAssessment: "Free brand growth assessment",
     responseTime: "Response within 24 hours",
     getFreeStrategy: "Get Your Free Growth Strategy Session",
     name: "Name",
@@ -673,7 +672,7 @@ export const translations: Record<string, Translation> = {
     aboutSuperfly: "حول Superfly Commerce",
     humanFirstMarketing: "تسويق يركز على الإنسان أولاً",
     agency: "وكالة",
-    aboutDescription1: "في Superfly Commerce، نحن مصممون لبناء حلول لعلامتك التجارية للتجارة الإلكترونية. نتخصص في تسويق TikTok واستراتيجيات نمو أمازون التي تضع الاتصالات الإنسانية الأصيلة في المقدمة.",
+    aboutDescription1: "في Superfly Commerce، نحن مصممون لبناء حلول لعلامتك التجارية للتجارة الإلكترونية. نتخصص في تسويق TikTok واستراتيجيات نمو أمازون التي تضع الاتصالات الإنسانية الأصيل�� في المقدمة.",
     aboutDescription2: "يجمع نهجنا بين خبرة أمازون المتطورة ومبادئ الأعمال المستدامة لإنشاء استراتيجيات لا تدفع المبيعات فحسب، بل تبني قيمة دائمة ضمن الحدود البيئية والاجتماعية.",
     yearsExperience: "سنوات الخبرة",
     brandsWorkedWith: "العلامات التجارية التي عملنا معها",
@@ -889,7 +888,7 @@ export const translations: Record<string, Translation> = {
     // Pricing
     pricingThatRewards: "奖励的定价",
     sustainability: "可持续性",
-    pricingDescription: "我们的阶梯定价模式奖励优先考虑生态和道德责任的品牌。您的做法越可持续，支付的费用就越少。",
+    pricingDescription: "我们的阶梯定价模式奖励优先考虑生态和道德��任的品牌。您的做法越可持续，支付的费用就越少。",
     selectSustainabilityLevel: "选择您的可持续性级别",
     gettingStarted: "开始",
     consciousBrand: "有意识的品牌",
