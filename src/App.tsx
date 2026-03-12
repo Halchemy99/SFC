@@ -42,6 +42,7 @@ const HomePage = () => (
 
 // Main App component with routing
 function App() {
+  console.log("[v0] App component rendering");
   return (
     <LanguageProvider>
       <CurrencyProvider>
