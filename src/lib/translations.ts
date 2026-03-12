@@ -339,16 +339,6 @@ export const translations: Record<string, Translation> = {
     noServicesAvailable: "No services available at the moment",
     checkBackSoon: "Please check back soon for our service offerings",
     
-    // Doughnut Economics
-    planetaryBoundaries: "Planetary Boundaries",
-    planetaryBoundariesDesc: "Operating within Earth's ecological limits to ensure long-term sustainability.",
-    socialFoundation: "Social Foundation", 
-    socialFoundationDesc: "Ensuring basic human needs are met for all people in our business operations.",
-    regenerativeGrowth: "Regenerative Growth",
-    regenerativeGrowthDesc: "Growth that gives back more than it takes, creating positive impact.",
-    antiExploitation: "Anti-Exploitation",
-    antiExploitationDesc: "Fair pricing and ethical business practices that respect all stakeholders.",
-    
     slidingScalePricing: "Sliding Scale Pricing",
     slidingScalePricingDesc: "More sustainable businesses pay less, incentivizing positive environmental practices.",
     rewardsBehavior: "Rewards Sustainable Behavior",
