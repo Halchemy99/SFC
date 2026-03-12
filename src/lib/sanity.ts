@@ -3,7 +3,7 @@ import imageUrlBuilder from '@sanity/image-url';
 
 // You will get this Project ID when you create a free account at sanity.io
 export const sanityClient = createClient({
-  projectId: import.meta.env.VITE_SANITY_PROJECT_ID || 'your_project_id', // Replace with actual ID later
+  projectId: import.meta.env.VITE_SANITY_PROJECT_ID || 'your-project-id', // Replace with actual ID later
   dataset: 'production',
   useCdn: true, // true = fast, cached content
   apiVersion: '2023-05-03',
