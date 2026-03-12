@@ -40,6 +40,7 @@ const HomePage = () => (
   </>
 );
 
+// Main App component with routing
 function App() {
   return (
     <LanguageProvider>
