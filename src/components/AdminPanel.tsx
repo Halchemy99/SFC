@@ -87,6 +87,11 @@ const SalesDashboard = () => {
 
   useEffect(() => {
     const fetchSalesData = async () => {
+      if (!supabase) {
+        setLoading(false);
+        return;
+      }
+      
       setLoading(true);
       
       const date = new Date();
@@ -196,6 +201,13 @@ const UserManagement = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       setLoading(true);
+      
+      if (!supabase) {
+        setMessage({type: 'error', text: 'Supabase is not configured.'});
+        setLoading(false);
+        return;
+      }
+      
       // We need to use an RPC call to join profiles with auth.users
       // This is safer than exposing auth.users directly.
       // First, let's create the RPC function in Supabase SQL Editor:
@@ -242,6 +254,12 @@ const UserManagement = () => {
 
   const handlePasswordReset = async (email: string) => {
     setMessage(null);
+    
+    if (!supabase) {
+      setMessage({type: 'error', text: 'Supabase is not configured.'});
+      return;
+    }
+    
     const { error } = await supabase.auth.resetPasswordForEmail(email, {
       redirectTo: `${window.location.origin}/auth` // Where user resets their password
     });
@@ -469,10 +487,17 @@ const VerificationManagement = () => {
     fetchVerifications();
   }, []);
 
-  const fetchVerifications = async () => {
-    setLoading(true);
-    const { data, error } = await supabase
-      .from('sustainability_verifications')
+const fetchVerifications = async () => {
+  setLoading(true);
+  
+  if (!supabase) {
+    setMessage({type: 'error', text: 'Supabase is not configured.'});
+    setLoading(false);
+    return;
+  }
+  
+  const { data, error } = await supabase
+  .from('sustainability_verifications')
       .select('*')
       .order('created_at', { ascending: true });
     
@@ -485,11 +510,17 @@ const VerificationManagement = () => {
     setLoading(false);
   };
 
-  const handleApprove = async (verification: Verification) => {
-    setMessage(null);
-    try {
-      // This logic should be an RPC function for security, but for now
-      // we'll use the client.
+const handleApprove = async (verification: Verification) => {
+  setMessage(null);
+  
+  if (!supabase) {
+    setMessage({type: 'error', text: 'Supabase is not configured.'});
+    return;
+  }
+  
+  try {
+  // This logic should be an RPC function for security, but for now
+  // we'll use the client.
       /*
         CREATE OR REPLACE FUNCTION approve_verification(v_id bigint, v_user_id uuid, v_level int)
         RETURNS void AS $$

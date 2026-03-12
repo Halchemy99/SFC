@@ -30,6 +30,11 @@ const Header = () => {
 
   // --- ADD SUPABASE AUTH LISTENER ---
   useEffect(() => {
+    if (!supabase) {
+      // Supabase not configured, skip auth
+      return;
+    }
+    
     // Fetch initial session
     supabase.auth.getSession().then(({ data: { session } }) => {
       setSession(session);

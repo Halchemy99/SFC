@@ -38,6 +38,12 @@ const AccountPage = () => {
     const fetchData = async () => {
       setLoading(true);
       
+      if (!supabase) {
+        // Supabase not configured, redirect to home
+        navigate('/');
+        return;
+      }
+      
       // 1. Get Auth User
       const { data: { user } } = await supabase.auth.getUser();
       if (user) {
@@ -70,7 +76,9 @@ const AccountPage = () => {
 
   const handleLogout = async () => {
     setLoading(true);
-    await supabase.auth.signOut();
+    if (supabase) {
+      await supabase.auth.signOut();
+    }
     navigate('/');
   };
 
@@ -171,6 +179,12 @@ const ProfilePanel = ({ profile, user }: { profile: Profile, user: SupabaseUser 
     setLoading(true);
     setMessage(null);
 
+    if (!supabase) {
+      setMessage({type: 'error', text: 'Supabase is not configured.'});
+      setLoading(false);
+      return;
+    }
+
     const { error } = await supabase
       .from('profiles')
       .update({
@@ -259,6 +273,12 @@ const OrdersPanel = () => {
   useEffect(() => {
     const fetchOrders = async () => {
       setLoading(true);
+      
+      if (!supabase) {
+        setLoading(false);
+        return;
+      }
+      
       const { data, error } = await supabase
         .from('orders')
         .select(`

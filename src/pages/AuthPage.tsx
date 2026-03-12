@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { supabase } from '../lib/supabase';
 import { useNavigate } from 'react-router-dom';
-import { AlertCircle, LogIn } from 'lucide-react';
+import { AlertCircle, LogIn, CheckCircle } from 'lucide-react';
 
 const AuthPage = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -19,6 +19,10 @@ const AuthPage = () => {
     setMessage(null);
 
     try {
+      if (!supabase) {
+        throw new Error('Supabase is not configured. Please set up your Supabase credentials.');
+      }
+      
       if (isLogin) {
         // Handle Login
         const { error } = await supabase.auth.signInWithPassword({
