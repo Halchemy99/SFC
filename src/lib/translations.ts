@@ -73,41 +73,17 @@ export interface Translation {
   allRightsReserved: string;
   madeWithLove: string;
   
-  // Services
+  // Additional keys
   servicesTitle: string;
   servicesSubtitle: string;
-  amazonPPCAds: string;
-  amazonOptimization: string;
-  brandStrategy: string;
-  performanceAnalytics: string;
-  growthAcceleration: string;
-  tiktokMarketing: string;
-  viewCaseStudy: string;
-  
-  // About
   aboutTitle: string;
   aboutSubtitle: string;
-  aboutDescription1: string;
-  aboutDescription2: string;
-  yearsExperience: string;
-  brandsWorkedWith: string;
-  clientSatisfaction: string;
   whyChooseUs: string;
-  humanFirstApproach: string;
   resultsDriven: string;
   customSolutions: string;
   provenExpertise: string;
-  
-  // Pricing
   pricingTitle: string;
   pricingSubtitle: string;
-  selectSustainabilityLevel: string;
-  gettingStarted: string;
-  consciousBrand: string;
-  impactLeader: string;
-  planetChampion: string;
-  verificationRequired: string;
-  requestContract: string;
   howSlidingScaleWorks: string;
   sustainabilityAssessment: string;
   getFreeAssessment: string;
@@ -125,15 +101,9 @@ export interface Translation {
   total: string;
   proceedToCheckout: string;
   
-  // Contact
+  // Additional Contact keys
   contactTitle: string;
   contactSubtitle: string;
-  emailUs: string;
-  callUs: string;
-  whatsapp: string;
-  location: string;
-  globallyBased: string;
-  whatYoullGet: string;
   freeAssessment: string;
   customStrategy: string;
   transparentPricing: string;
@@ -146,19 +116,12 @@ export interface Translation {
   currentRevenue: string;
   tellUsAboutBrand: string;
   
-  // Results
+  // Additional Results keys
   resultsTitle: string;
   resultsSubtitle: string;
-  brandsWeWorkedWith: string;
-  getSimilarResults: string;
   
-  // Footer
-  quickLinks: string;
-  getInTouch: string;
-  stayInLoop: string;
-  sustainableGrowthTips: string;
+  // Additional Footer keys
   joinNow: string;
-  madeWithLove: string;
   
   // Sustainability Verification
   sustainabilityVerification: string;
@@ -338,14 +301,7 @@ export const translations: Record<string, Translation> = {
     // Additional missing translations
     noServicesAvailable: "No services available at the moment",
     checkBackSoon: "Please check back soon for our service offerings",
-    
-    // Footer
-    quickLinks: "Quick Links",
-    getInTouch: "Get in Touch",
-    stayInLoop: "Stay in the Loop!",
-    sustainableGrowthTips: "Get exclusive Amazon growth tips, sustainability insights, and industry updates delivered to your inbox.",
     joinNow: "Join Now",
-    madeWithLove: "Made with ❤️ for ecommerce brands",
     
     // Sustainability Verification
     sustainabilityVerification: "Sustainability Verification",
